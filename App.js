@@ -20,6 +20,8 @@ const globalScreenOptions = {
 
 export default class App extends Component {
   render() {
+    console.log = function(){};
+
     return (
       <NavigationContainer>
         <Stack.Navigator 
